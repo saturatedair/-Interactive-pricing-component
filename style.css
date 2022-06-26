@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+}
+
+body img {
+  margin-left: auto;
+}
+
+header,
+.circles {
+  position: absolute;
+  top: 8%;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: hsl(227, 35%, 25%);
+}
+.container {
+  position: absolute;
+  top: 36%;
+  width: 27%;
+  height: 32%;
+  background-color: #fff;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+  padding: 2.5rem;
+  color: hsl(240, 3%, 72%);
+}
+.range-content {
+  padding-bottom: 1.7rem;
+  border-bottom: 1px solid rgb(224, 223, 223);
+}
+.range-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.views {
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-size: 2rem;
+  color: hsl(227, 35%, 25%);
+  font-weight: 800;
+  margin: 0;
+}
+
+.slider {
+  width: 100%;
+  margin-top: 1.2rem;
+}
+
+.billing-options {
+  display: flex;
+  margin-top: 1.5rem;
+  position: relative;
+  left: 25%;
+  width: 75%;
+}
+
+.switch-container {
+  background-color: hsl(223, 50%, 87%);
+  height: 1rem;
+  width: 2.2rem;
+  border-radius: 10px;
+  margin: 0 0.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0.1rem 0.2rem;
+  cursor: pointer;
+}
+.switch {
+  background-color: #fff;
+  height: 0.85rem;
+  width: 0.85rem;
+  border-radius: 50%;
+}
+
+/* js toggle*/
+
+.switch-right {
+  transform: translateX(1.35rem);
+  transition: transform 0.5s ease;
+}
+.switch-left {
+  transform: translateX(-0.1rem);
+  transition: transform 0.5s ease;
+}
+
+.switch-container:hover {
+  background-color: hsl(174, 86%, 45%);
+  transition: background-color 1s ease;
+}
+
+.discount {
+  margin-left: 0.5rem;
+  color: hsl(15, 100%, 70%);
+  background-color: hsl(14, 92%, 95%);
+  padding: 0.1rem 0.4rem;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.lower-content {
+  display: flex;
+  padding-top: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lower-content ul {
+  list-style-image: url(./images/icon-check.svg);
+  padding-left: 20px;
+}
+.lower-content ul li {
+  margin-top: 5px;
+}
+
+.start-btn {
+  background-color: hsl(227, 35%, 25%);
+  width: 40%;
+  height: 20%;
+  color: #fff;
+  border-radius: 25px;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-top: 5px;
+}
