@@ -51,27 +51,4 @@ function switchRight() {
     price.innerHTML = `$ ${boom - 5}.00`;
   }
 }
-// range.addEventListener("input", function () {
-//   count.innerHTML = range.value + "K";
-//   if (!roll.classList.contains("switch-right")) {
-//     if (range.value <= 25) {
-//       price.innerHTML = "$12.00";
-//     } else if (range.value <= 50) {
-//       price.innerHTML = "$10.00";
-//     } else if (range.value <= 75) {
-//       price.innerHTML = "$8.00";
-//     } else {
-//       price.innerHTML = "$5.00";
-//     }
-//   } else {
-//     if (range.value <= 25) {
-//       price.innerHTML = "$10.00";
-//     } else if (range.value <= 50) {
-//       price.innerHTML = "$8.00";
-//     } else if (range.value <= 75) {
-//       price.innerHTML = "$5.00";
-//     } else {
-//       price.innerHTML = "$3.50";
-//     }
-//   }
-// });
+
